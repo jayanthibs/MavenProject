@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MavenTestNGSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MavenTestNGTest(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="mavenpackage.Parameterization">
+        <methods>
+          <include name="parameterizedTest"/>
+        </methods>
+      </class> <!-- mavenpackage.Parameterization -->
+    </classes>
+  </test> <!-- MavenTestNGTest(failed) -->
+</suite> <!-- Failed suite [MavenTestNGSuite] -->
