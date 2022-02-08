@@ -2,23 +2,12 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-08T12:57:59 EST" name="MavenTestNGSuite" finished-at="2022-02-08T12:58:11 EST" duration-ms="12285">
+  <suite started-at="2022-02-08T13:07:11 EST" name="MavenTestNGSuite" finished-at="2022-02-08T13:07:23 EST" duration-ms="11400">
     <groups>
     </groups>
-    <test started-at="2022-02-08T12:57:59 EST" name="MavenTestNGTest1" finished-at="2022-02-08T12:58:05 EST" duration-ms="6448">
+    <test started-at="2022-02-08T13:07:11 EST" name="MavenTestNGTest1" finished-at="2022-02-08T13:07:18 EST" duration-ms="6277">
       <class name="mavenpackage.Parameterization">
-        <test-method signature="parameterizedTest(java.lang.String)[pri:0, instance:mavenpackage.Parameterization@65466a6a]" started-at="2022-02-08T12:58:03 EST" name="parameterizedTest" finished-at="2022-02-08T12:58:03 EST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parameterizedTest -->
-        <test-method signature="optional(java.lang.String)[pri:0, instance:mavenpackage.Parameterization@65466a6a]" started-at="2022-02-08T12:58:03 EST" name="optional" finished-at="2022-02-08T12:58:03 EST" duration-ms="2" status="PASS">
+        <test-method signature="optional(java.lang.String)[pri:0, instance:mavenpackage.Parameterization@65466a6a]" started-at="2022-02-08T13:07:15 EST" name="optional" finished-at="2022-02-08T13:07:15 EST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,42 +18,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optional -->
-      </class> <!-- mavenpackage.Parameterization -->
-      <class name="mavenpackage.FirstMavenExercise">
-        <test-method signature="mavenTest()[pri:0, instance:mavenpackage.FirstMavenExercise@670002]" started-at="2022-02-08T12:58:03 EST" name="mavenTest" finished-at="2022-02-08T12:58:05 EST" duration-ms="2558" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mavenTest -->
-      </class> <!-- mavenpackage.FirstMavenExercise -->
-      <class name="mavenpackage.FirstTestNGFile">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:mavenpackage.FirstTestNGFile@3d680b5a]" started-at="2022-02-08T12:57:59 EST" name="launchBrowser" finished-at="2022-02-08T12:58:03 EST" duration-ms="3860" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyTitle()[pri:0, instance:mavenpackage.FirstTestNGFile@3d680b5a]" started-at="2022-02-08T12:58:03 EST" name="verifyTitle" finished-at="2022-02-08T12:58:03 EST" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mavenpackage.FirstTestNGFile@3d680b5a]" started-at="2022-02-08T12:58:05 EST" name="closeBrowser" finished-at="2022-02-08T12:58:05 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- mavenpackage.FirstTestNGFile -->
-    </test> <!-- MavenTestNGTest1 -->
-    <test started-at="2022-02-08T12:58:05 EST" name="MavenTestNGTest2" finished-at="2022-02-08T12:58:11 EST" duration-ms="5821">
-      <class name="mavenpackage.Parameterization">
-        <test-method signature="parameterizedTest(java.lang.String)[pri:0, instance:mavenpackage.Parameterization@2145b572]" started-at="2022-02-08T12:58:08 EST" name="parameterizedTest" finished-at="2022-02-08T12:58:08 EST" duration-ms="1" status="PASS">
+        <test-method signature="parameterizedTest(java.lang.String)[pri:0, instance:mavenpackage.Parameterization@65466a6a]" started-at="2022-02-08T13:07:15 EST" name="parameterizedTest" finished-at="2022-02-08T13:07:15 EST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parameterizedTest -->
-        <test-method signature="optional(java.lang.String)[pri:0, instance:mavenpackage.Parameterization@2145b572]" started-at="2022-02-08T12:58:08 EST" name="optional" finished-at="2022-02-08T12:58:08 EST" duration-ms="0" status="PASS">
+      </class> <!-- mavenpackage.Parameterization -->
+      <class name="mavenpackage.FirstMavenExercise">
+        <test-method signature="mavenTest()[pri:0, instance:mavenpackage.FirstMavenExercise@670002]" started-at="2022-02-08T13:07:15 EST" name="mavenTest" finished-at="2022-02-08T13:07:18 EST" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mavenTest -->
+      </class> <!-- mavenpackage.FirstMavenExercise -->
+      <class name="mavenpackage.FirstTestNGFile">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:mavenpackage.FirstTestNGFile@3d680b5a]" started-at="2022-02-08T13:07:11 EST" name="launchBrowser" finished-at="2022-02-08T13:07:15 EST" duration-ms="3612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyTitle()[pri:0, instance:mavenpackage.FirstTestNGFile@3d680b5a]" started-at="2022-02-08T13:07:15 EST" name="verifyTitle" finished-at="2022-02-08T13:07:15 EST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mavenpackage.FirstTestNGFile@3d680b5a]" started-at="2022-02-08T13:07:18 EST" name="closeBrowser" finished-at="2022-02-08T13:07:18 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mavenpackage.FirstTestNGFile -->
+    </test> <!-- MavenTestNGTest1 -->
+    <test started-at="2022-02-08T13:07:18 EST" name="MavenTestNGTest2" finished-at="2022-02-08T13:07:23 EST" duration-ms="5106">
+      <class name="mavenpackage.Parameterization">
+        <test-method signature="optional(java.lang.String)[pri:0, instance:mavenpackage.Parameterization@2145b572]" started-at="2022-02-08T13:07:20 EST" name="optional" finished-at="2022-02-08T13:07:20 EST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,23 +64,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optional -->
+        <test-method signature="parameterizedTest(java.lang.String)[pri:0, instance:mavenpackage.Parameterization@2145b572]" started-at="2022-02-08T13:07:20 EST" name="parameterizedTest" finished-at="2022-02-08T13:07:20 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterizedTest -->
       </class> <!-- mavenpackage.Parameterization -->
       <class name="mavenpackage.FirstMavenExercise">
-        <test-method signature="mavenTest()[pri:0, instance:mavenpackage.FirstMavenExercise@15eb5ee5]" started-at="2022-02-08T12:58:08 EST" name="mavenTest" finished-at="2022-02-08T12:58:11 EST" duration-ms="2500" status="PASS">
+        <test-method signature="mavenTest()[pri:0, instance:mavenpackage.FirstMavenExercise@15eb5ee5]" started-at="2022-02-08T13:07:20 EST" name="mavenTest" finished-at="2022-02-08T13:07:23 EST" duration-ms="2716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mavenTest -->
       </class> <!-- mavenpackage.FirstMavenExercise -->
       <class name="mavenpackage.FirstTestNGFile">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:mavenpackage.FirstTestNGFile@2c767a52]" started-at="2022-02-08T12:58:05 EST" name="launchBrowser" finished-at="2022-02-08T12:58:08 EST" duration-ms="3319" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:mavenpackage.FirstTestNGFile@2c767a52]" started-at="2022-02-08T13:07:18 EST" name="launchBrowser" finished-at="2022-02-08T13:07:20 EST" duration-ms="2384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyTitle()[pri:0, instance:mavenpackage.FirstTestNGFile@2c767a52]" started-at="2022-02-08T12:58:08 EST" name="verifyTitle" finished-at="2022-02-08T12:58:08 EST" duration-ms="11" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:mavenpackage.FirstTestNGFile@2c767a52]" started-at="2022-02-08T13:07:20 EST" name="verifyTitle" finished-at="2022-02-08T13:07:20 EST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mavenpackage.FirstTestNGFile@2c767a52]" started-at="2022-02-08T12:58:11 EST" name="closeBrowser" finished-at="2022-02-08T12:58:11 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mavenpackage.FirstTestNGFile@2c767a52]" started-at="2022-02-08T13:07:23 EST" name="closeBrowser" finished-at="2022-02-08T13:07:23 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
