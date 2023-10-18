@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-MavenTestNGSuite" class="navigator-link">
-              <span class="suite-name border-passed">MavenTestNGSuite</span>
+              <span class="suite-name border-failed">MavenTestNGSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">8 methods, 4 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MavenTestNGSuite" class="hide-methods failed suite-MavenTestNGSuite"> (hide)</a> <!-- hide-methods failed suite-MavenTestNGSuite -->
+                      <a href="#" panel-name="suite-MavenTestNGSuite" class="show-methods failed suite-MavenTestNGSuite"> (show)</a> <!-- show-methods failed suite-MavenTestNGSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-MavenTestNGSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstMavenExercise" class="method navigator-link" hash-for-method="mavenTest">mavenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstMavenExercise" class="method navigator-link" hash-for-method="mavenTest">mavenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstTestNGFile" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstTestNGFile" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MavenTestNGSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,16 +131,6 @@
                       <a href="#" panel-name="suite-MavenTestNGSuite" class="show-methods passed suite-MavenTestNGSuite"> (show)</a> <!-- show-methods passed suite-MavenTestNGSuite -->
                     </span>
                     <div class="method-list-content passed suite-MavenTestNGSuite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstMavenExercise" class="method navigator-link" hash-for-method="mavenTest">mavenTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstMavenExercise" class="method navigator-link" hash-for-method="mavenTest">mavenTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.Parameterization" class="method navigator-link" hash-for-method="optional(Optional Parameter Selected)">optional(Optional Parameter Selected)</a> <!-- method navigator-link -->
@@ -132,16 +151,6 @@
                         <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.Parameterization" class="method navigator-link" hash-for-method="parameterizedTest(chrome)">parameterizedTest(chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstTestNGFile" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstTestNGFile" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-MavenTestNGSuite -->
                   </li>
                 </ul>
@@ -154,31 +163,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MavenTestNGSuite" class="panel MavenTestNGSuite">
-          <div class="suite-MavenTestNGSuite-class-passed">
+          <div class="suite-MavenTestNGSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">mavenpackage.FirstMavenExercise</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="mavenTest">
-                  </a> <!-- mavenTest -->
-                  <span class="method-name">mavenTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="mavenTest">
-                  </a> <!-- mavenTest -->
-                  <span class="method-name">mavenTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MavenTestNGSuite-class-passed -->
-          <div class="suite-MavenTestNGSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">mavenpackage.FirstTestNGFile</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -187,6 +174,31 @@
                   <a name="verifyTitle">
                   </a> <!-- verifyTitle -->
                   <span class="method-name">verifyTitle</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.71)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;BALA-PC&apos;, ip: &apos;192.168.1.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4efdcd64838606836a6f3d9db2390648, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Bala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8146/devtool..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4efdcd64838606836a6f3d9db2390648
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
+	at mavenpackage.FirstTestNGFile.verifyTitle(FirstTestNGFile.java:42)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -194,10 +206,107 @@
                   <a name="verifyTitle">
                   </a> <!-- verifyTitle -->
                   <span class="method-name">verifyTitle</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.71)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;BALA-PC&apos;, ip: &apos;192.168.1.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca0685169680b28a8c64935b1ea8db55, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Bala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8209/devtool..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca0685169680b28a8c64935b1ea8db55
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
+	at mavenpackage.FirstTestNGFile.verifyTitle(FirstTestNGFile.java:42)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MavenTestNGSuite-class-passed -->
+          </div> <!-- suite-MavenTestNGSuite-class-failed -->
+          <div class="suite-MavenTestNGSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">mavenpackage.FirstMavenExercise</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mavenTest">
+                  </a> <!-- mavenTest -->
+                  <span class="method-name">mavenTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.71)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;BALA-PC&apos;, ip: &apos;192.168.1.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14238586155770372012ae5a6c0fbfa4, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Bala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8184/devtool..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14238586155770372012ae5a6c0fbfa4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
+	at mavenpackage.FirstMavenExercise.mavenTest(FirstMavenExercise.java:43)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mavenTest">
+                  </a> <!-- mavenTest -->
+                  <span class="method-name">mavenTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.71)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;BALA-PC&apos;, ip: &apos;192.168.1.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30806023a3cb329a84443437fc6232e0, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Bala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8234/devtool..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30806023a3cb329a84443437fc6232e0
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
+	at mavenpackage.FirstMavenExercise.mavenTest(FirstMavenExercise.java:43)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MavenTestNGSuite-class-failed -->
           <div class="suite-MavenTestNGSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -309,19 +418,19 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'mavenTest')
 data.setCell(0, 2, 'mavenpackage.FirstMavenExercise')
-data.setCell(0, 3, 2716);
+data.setCell(0, 3, 2026);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'mavenTest')
 data.setCell(1, 2, 'mavenpackage.FirstMavenExercise')
-data.setCell(1, 3, 2627);
+data.setCell(1, 3, 1900);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyTitle')
 data.setCell(2, 2, 'mavenpackage.FirstTestNGFile')
-data.setCell(2, 3, 35);
+data.setCell(2, 3, 80);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyTitle')
 data.setCell(3, 2, 'mavenpackage.FirstTestNGFile')
-data.setCell(3, 3, 10);
+data.setCell(3, 3, 36);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'optional')
 data.setCell(4, 2, 'mavenpackage.Parameterization')
@@ -331,18 +440,18 @@ data.setCell(5, 1, 'parameterizedTest')
 data.setCell(5, 2, 'mavenpackage.Parameterization')
 data.setCell(5, 3, 2);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'optional')
+data.setCell(6, 1, 'parameterizedTest')
 data.setCell(6, 2, 'mavenpackage.Parameterization')
-data.setCell(6, 3, 0);
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'parameterizedTest')
+data.setCell(7, 1, 'optional')
 data.setCell(7, 2, 'mavenpackage.Parameterization')
-data.setCell(7, 3, 0);
+data.setCell(7, 3, 1);
 window.suiteTableData['MavenTestNGSuite']= { tableData: data, tableDiv: 'times-div-MavenTestNGSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-MavenTestNGSuite">
               </div> <!-- times-div-MavenTestNGSuite -->
             </div> <!-- times-div -->
@@ -378,68 +487,76 @@ return data;
               <div class="chronological-class-name">mavenpackage.Parameterization</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">optional(Optional Parameter Selected)</span>
-                <span class="method-start">3646 ms</span>
+                <span class="method-start">7422 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">mavenpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">mavenpackage.FirstMavenExercise</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">verifyTitle</span>
-                <span class="method-start">3646 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mavenTest</span>
+                <span class="method-start">7422 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">mavenpackage.Parameterization</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">parameterizedTest(firefox)</span>
-                <span class="method-start">3646 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">mavenpackage.FirstMavenExercise</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">mavenTest</span>
-                <span class="method-start">3646 ms</span>
+                <span class="method-start">7422 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">mavenpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">7422 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">6274 ms</span>
+                <span class="method-start">9324 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">launchBrowser</span>
-                <span class="method-start">6291 ms</span>
+                <span class="method-start">9381 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">mavenpackage.FirstMavenExercise</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">mavenTest</span>
-                <span class="method-start">8679 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">mavenpackage.Parameterization</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">optional(Testing parameters Annotation by passing value from xml )</span>
-                <span class="method-start">8679 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">parameterizedTest(chrome)</span>
-                <span class="method-start">8679 ms</span>
+                <span class="method-start">11691 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">mavenpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyTitle</span>
-                <span class="method-start">8679 ms</span>
+                <span class="method-start">11692 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mavenpackage.Parameterization</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">parameterizedTest(chrome)</span>
+                <span class="method-start">11692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">optional(Testing parameters Annotation by passing value from xml )</span>
+                <span class="method-start">11703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mavenpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">11396 ms</span>
+                <span class="method-start">13719 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,8 @@
+[INFO ] 2023-10-18 17:22:32.589 [TestNG-test=MavenTestNGTest1-1] FirstMavenExercise - Driver setup is made
+[INFO ] 2023-10-18 17:22:33.456 [TestNG-test=MavenTestNGTest1-1] FirstMavenExercise - Browser is instantiated
+[INFO ] 2023-10-18 17:22:33.459 [TestNG-test=MavenTestNGTest1-1] FirstMavenExercise - Window is Maximized
+[INFO ] 2023-10-18 17:22:34.409 [TestNG-test=MavenTestNGTest1-1] FirstMavenExercise - Navigated to facebook home page
+[INFO ] 2023-10-18 17:22:36.798 [TestNG-test=MavenTestNGTest2-1] FirstMavenExercise - Driver setup is made
+[INFO ] 2023-10-18 17:22:37.616 [TestNG-test=MavenTestNGTest2-1] FirstMavenExercise - Browser is instantiated
+[INFO ] 2023-10-18 17:22:37.620 [TestNG-test=MavenTestNGTest2-1] FirstMavenExercise - Window is Maximized
+[INFO ] 2023-10-18 17:22:38.805 [TestNG-test=MavenTestNGTest2-1] FirstMavenExercise - Navigated to facebook home page

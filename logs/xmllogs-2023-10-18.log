@@ -1,0 +1,10 @@
+[INFO ] 2023-10-18 13:40:53.144 [TestNG-test=MavenTestNGTest1-1] FirstMavenExercise - Driver setup is made
+[INFO ] 2023-10-18 13:40:54.012 [TestNG-test=MavenTestNGTest1-1] FirstMavenExercise - Browser is instantiated
+[INFO ] 2023-10-18 13:40:54.015 [TestNG-test=MavenTestNGTest1-1] FirstMavenExercise - Window is Maximized
+[INFO ] 2023-10-18 13:40:55.673 [TestNG-test=MavenTestNGTest1-1] FirstMavenExercise - Navigated to facebook home page
+[ERROR] 2023-10-18 13:40:55.682 [TestNG-test=MavenTestNGTest1-1] FirstMavenExercise - Expected and Actual titles are not matching
+[INFO ] 2023-10-18 13:41:00.649 [TestNG-test=MavenTestNGTest2-1] FirstMavenExercise - Driver setup is made
+[INFO ] 2023-10-18 13:41:01.521 [TestNG-test=MavenTestNGTest2-1] FirstMavenExercise - Browser is instantiated
+[INFO ] 2023-10-18 13:41:01.525 [TestNG-test=MavenTestNGTest2-1] FirstMavenExercise - Window is Maximized
+[INFO ] 2023-10-18 13:41:03.249 [TestNG-test=MavenTestNGTest2-1] FirstMavenExercise - Navigated to facebook home page
+[ERROR] 2023-10-18 13:41:03.257 [TestNG-test=MavenTestNGTest2-1] FirstMavenExercise - Expected and Actual titles are not matching

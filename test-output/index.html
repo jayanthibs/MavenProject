@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-MavenTestNGSuite" class="navigator-link">
+              <span class="suite-name border-failed">MavenTestNGSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Bala\AppData\Local\Temp\testng-eclipse--1386035477\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-MavenTestNGSuite" class="navigator-link ">
+                    <span>E:\Jayanthi\Manual Testing\eclipse-workspace\MavenProject\Maventestng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-MavenTestNGSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-MavenTestNGSuite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-MavenTestNGSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-MavenTestNGSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-MavenTestNGSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-MavenTestNGSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,21 +93,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MavenTestNGSuite" class="hide-methods failed suite-MavenTestNGSuite"> (hide)</a> <!-- hide-methods failed suite-MavenTestNGSuite -->
+                      <a href="#" panel-name="suite-MavenTestNGSuite" class="show-methods failed suite-MavenTestNGSuite"> (show)</a> <!-- show-methods failed suite-MavenTestNGSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-MavenTestNGSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstTestNGFile" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstTestNGFile" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MavenTestNGSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-MavenTestNGSuite" class="hide-methods passed suite-MavenTestNGSuite"> (hide)</a> <!-- hide-methods passed suite-MavenTestNGSuite -->
+                      <a href="#" panel-name="suite-MavenTestNGSuite" class="show-methods passed suite-MavenTestNGSuite"> (show)</a> <!-- show-methods passed suite-MavenTestNGSuite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-MavenTestNGSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="mavenpackage.FirstTestNGFile" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstMavenExercise" class="method navigator-link" hash-for-method="mavenTest">mavenTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.FirstMavenExercise" class="method navigator-link" hash-for-method="mavenTest">mavenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.Parameterization" class="method navigator-link" hash-for-method="optional(Optional Parameter Selected)">optional(Optional Parameter Selected)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.Parameterization" class="method navigator-link" hash-for-method="optional(Testing parameters Annotation by passing value from xml )">optional(Testing parameters Annotation by passing value from xml )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.Parameterization" class="method navigator-link" hash-for-method="parameterizedTest(firefox)">parameterizedTest(firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MavenTestNGSuite" title="mavenpackage.Parameterization" class="method navigator-link" hash-for-method="parameterizedTest(chrome)">parameterizedTest(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MavenTestNGSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,10 +162,10 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-MavenTestNGSuite" class="panel MavenTestNGSuite">
+          <div class="suite-MavenTestNGSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">mavenpackage.FirstTestNGFile</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -130,92 +174,218 @@
                   <a name="verifyTitle">
                   </a> <!-- verifyTitle -->
                   <span class="method-name">verifyTitle</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at mavenpackage.FirstTestNGFile.verifyTitle(FirstTestNGFile.java:40)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
+	at mavenpackage.FirstTestNGFile.verifyTitle(FirstTestNGFile.java:40)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-MavenTestNGSuite-class-failed -->
+          <div class="suite-MavenTestNGSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mavenpackage.FirstMavenExercise</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mavenTest">
+                  </a> <!-- mavenTest -->
+                  <span class="method-name">mavenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mavenTest">
+                  </a> <!-- mavenTest -->
+                  <span class="method-name">mavenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MavenTestNGSuite-class-passed -->
+          <div class="suite-MavenTestNGSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mavenpackage.Parameterization</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="optional(Optional Parameter Selected)">
+                  </a> <!-- optional(Optional Parameter Selected) -->
+                  <span class="method-name">optional</span>
+                  <span class="parameters">(Optional Parameter Selected)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="optional(Testing parameters Annotation by passing value from xml )">
+                  </a> <!-- optional(Testing parameters Annotation by passing value from xml ) -->
+                  <span class="method-name">optional</span>
+                  <span class="parameters">(Testing parameters Annotation by passing value from xml )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parameterizedTest(firefox)">
+                  </a> <!-- parameterizedTest(firefox) -->
+                  <span class="method-name">parameterizedTest</span>
+                  <span class="parameters">(firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parameterizedTest(chrome)">
+                  </a> <!-- parameterizedTest(chrome) -->
+                  <span class="method-name">parameterizedTest</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MavenTestNGSuite-class-passed -->
+        </div> <!-- panel MavenTestNGSuite -->
+        <div panel-name="test-xml-MavenTestNGSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Bala\AppData\Local\Temp\testng-eclipse--1386035477\testng-customsuite.xml</span>
+            <span class="header-content">E:\Jayanthi\Manual Testing\eclipse-workspace\MavenProject\Maventestng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite thread-count=&quot;8&quot; parallel=&quot;methods&quot; name=&quot;MavenTestNGSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;MavenTestNGTest1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;mavenpackage.FirstMavenExercise&quot;/&gt;
+      &lt;class name=&quot;mavenpackage.Parameterization&quot;/&gt;
       &lt;class name=&quot;mavenpackage.FirstTestNGFile&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- MavenTestNGTest1 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;MavenTestNGTest2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;message&quot; value=&quot;Testing parameters Annotation by passing value from xml &quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mavenpackage.FirstMavenExercise&quot;/&gt;
+      &lt;class name=&quot;mavenpackage.Parameterization&quot;/&gt;
+      &lt;class name=&quot;mavenpackage.FirstTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MavenTestNGTest2 --&gt;
+&lt;/suite&gt; &lt;!-- MavenTestNGSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-MavenTestNGSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for MavenTestNGSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">MavenTestNGTest1 (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">MavenTestNGTest2 (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-MavenTestNGSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for MavenTestNGSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-MavenTestNGSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for MavenTestNGSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_MavenTestNGSuite');
+function tableData_MavenTestNGSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyTitle')
-data.setCell(0, 2, 'mavenpackage.FirstTestNGFile')
-data.setCell(0, 3, 17);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'mavenTest')
+data.setCell(0, 2, 'mavenpackage.FirstMavenExercise')
+data.setCell(0, 3, 2341);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'mavenTest')
+data.setCell(1, 2, 'mavenpackage.FirstMavenExercise')
+data.setCell(1, 3, 1971);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTitle')
+data.setCell(2, 2, 'mavenpackage.FirstTestNGFile')
+data.setCell(2, 3, 9);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'optional')
+data.setCell(3, 2, 'mavenpackage.Parameterization')
+data.setCell(3, 3, 7);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'parameterizedTest')
+data.setCell(4, 2, 'mavenpackage.Parameterization')
+data.setCell(4, 3, 5);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'optional')
+data.setCell(5, 2, 'mavenpackage.Parameterization')
+data.setCell(5, 3, 5);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'parameterizedTest')
+data.setCell(6, 2, 'mavenpackage.Parameterization')
+data.setCell(6, 3, 4);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyTitle')
+data.setCell(7, 2, 'mavenpackage.FirstTestNGFile')
+data.setCell(7, 3, 3);
+window.suiteTableData['MavenTestNGSuite']= { tableData: data, tableDiv: 'times-div-MavenTestNGSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 ms</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-MavenTestNGSuite">
+              </div> <!-- times-div-MavenTestNGSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-MavenTestNGSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for MavenTestNGSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-MavenTestNGSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-MavenTestNGSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -226,13 +396,74 @@ return data;
                 <span class="method-name">launchBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mavenpackage.Parameterization</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">optional(Optional Parameter Selected)</span>
+                <span class="method-start">4627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">parameterizedTest(firefox)</span>
+                <span class="method-start">4627 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mavenpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyTitle</span>
-                <span class="method-start">3589 ms</span>
+                <span class="method-start">4627 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mavenpackage.FirstMavenExercise</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">mavenTest</span>
+                <span class="method-start">4627 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mavenpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">6600 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">6622 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mavenpackage.FirstMavenExercise</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">mavenTest</span>
+                <span class="method-start">10753 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mavenpackage.Parameterization</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">parameterizedTest(chrome)</span>
+                <span class="method-start">10754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">optional(Testing parameters Annotation by passing value from xml )</span>
+                <span class="method-start">10754 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mavenpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">10754 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">3612 ms</span>
+                <span class="method-start">13096 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,20 @@
+[INFO ] 2022-02-15 17:14:44.298 [main] FirstMavenExercise - Driver setup is made
+[INFO ] 2022-02-15 17:14:46.049 [main] FirstMavenExercise - Browser is instantiated
+[INFO ] 2022-02-15 17:14:46.059 [main] FirstMavenExercise - Window is Maximized
+[INFO ] 2022-02-15 17:14:47.095 [main] FirstMavenExercise - Navigated to facebook home page
+[ERROR] 2022-02-15 17:14:47.102 [main] FirstMavenExercise - Expected and Actual titles are not matching
+[INFO ] 2022-02-15 17:15:59.569 [main] FirstMavenExercise - Driver setup is made
+[INFO ] 2022-02-15 17:16:01.375 [main] FirstMavenExercise - Browser is instantiated
+[INFO ] 2022-02-15 17:16:01.387 [main] FirstMavenExercise - Window is Maximized
+[INFO ] 2022-02-15 17:16:02.502 [main] FirstMavenExercise - Navigated to facebook home page
+[ERROR] 2022-02-15 17:16:02.511 [main] FirstMavenExercise - Expected and Actual titles are not matching
+[INFO ] 2022-02-15 17:21:12.965 [main] FirstMavenExercise - Driver setup is made
+[INFO ] 2022-02-15 17:21:14.767 [main] FirstMavenExercise - Browser is instantiated
+[INFO ] 2022-02-15 17:21:14.778 [main] FirstMavenExercise - Window is Maximized
+[INFO ] 2022-02-15 17:21:15.821 [main] FirstMavenExercise - Navigated to facebook home page
+[ERROR] 2022-02-15 17:21:15.829 [main] FirstMavenExercise - Expected and Actual titles are not matching
+[INFO ] 2022-02-15 18:09:58.133 [main] FirstMavenExercise - Driver setup is made
+[INFO ] 2022-02-15 18:10:00.245 [main] FirstMavenExercise - Browser is instantiated
+[INFO ] 2022-02-15 18:10:00.257 [main] FirstMavenExercise - Window is Maximized
+[INFO ] 2022-02-15 18:10:01.803 [main] FirstMavenExercise - Navigated to facebook home page
+[ERROR] 2022-02-15 18:10:01.812 [main] FirstMavenExercise - Expected and Actual titles are not matching
