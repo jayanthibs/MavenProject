@@ -19,6 +19,7 @@ public class FirstTestNGFile {
 	  
 	  
 	 // System.setProperty("webdriver.chrome.driver","E:\\Jayanthi\\Downloads\\Selenium Download\\chromedriver-win32\\chromedriver.exe");
+	  // System.setProperty("webdriver.chrome.driver","E:\\Jayanthi\\Downloads\\Selenium Download\\chromedriver-win32\\chromedriver.exe");
 	  System.setProperty("webdriver.chrome.driver",".\\src\\test\\resources\\Drivers\\chromedriver.exe");
 	  ChromeOptions chromeOptions = new ChromeOptions();
 	  chromeOptions.addArguments("--remote-allow-origins=*");
